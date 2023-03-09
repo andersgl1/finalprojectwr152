@@ -1,0 +1,68 @@
+#contact-full {
+    background-image: repeating-linear-gradient(to bottom right, rgb(195, 255, 166), rgb(244, 239, 112), rgb(94, 253, 234));
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+}
+
+.contact-input-div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+    margin-top: 5vw;
+}
+
+#email {
+    transform: translateY(-.35vw);
+    margin-left: .5vw;
+    width: 20vw;
+    font-family: 'Questrial', sans-serif;
+    font-size: 2.25vw;
+    padding-inline-start: 1vw;
+    border: .25vw solid black;
+    border-bottom: .45vw solid black;
+    margin-right: .5vw;
+}
+
+#explanation {
+    width: 80vw;
+    border: .25vw solid black;
+    font-size: 2.25vw;
+    font-family: 'Questrial', sans-serif;
+    padding-inline-start: 1vw;
+    padding-top: 1vw;
+    height: 20vw;
+    align-self: center;
+}
+
+.contact-input-field {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+}
+
+.explanation-label {
+    height: min-content;
+    font-size: 4vw;
+    text-decoration: underline;
+    margin-bottom: 2.5vw;
+    font-family: 'Questrial', sans-serif;
+}
+
+.submit-button-contact {
+    width: 20vw;
+    font-family: 'Questrial', sans-serif;
+    align-self: flex-end;
+    margin-right: 6.5vw;
+    border: .25vw solid black;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 2.5vw;
+    font-size: 2.25vw;
+    margin-bottom: 5vw;
+    padding-top: .25vw;
+    padding-bottom: .25vw;
+}
+
+.submit-button-contact:hover {
+    background-color: rgba(0, 0, 0, .2);
+}

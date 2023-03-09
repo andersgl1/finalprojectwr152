@@ -1,0 +1,72 @@
+
+#login-full {
+    background-image: repeating-linear-gradient(to bottom right, rgb(195, 255, 166), rgb(244, 239, 112), rgb(94, 253, 234));
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/*
+    login-popup - the entire popup including the two fields
+*/
+
+.login-popup {
+    align-self: center;
+    margin-top: 15vh;
+    border: .25vw solid white;
+    background-color: rgba(0, 0, 0, .35);
+    border-radius: 1vw;
+    padding-top: 2vw;
+    margin-bottom: 8vw;
+}
+
+/*
+    login - the div of the fields themselves
+*/
+
+.login {
+    margin: 2vw;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*
+    login-field - the input tab of the fields themselves
+*/
+
+.login-field {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.25vw;
+    padding-inline-start: 2vw;
+    border: .25vw solid black;
+    width: 30vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+.submit-button {
+    font-family: 'Quicksand', sans-serif;
+    border: .25vw solid white;
+    font-size: 2.25vw;
+    width: 100%;
+    transition: .2s all;
+    background-color: rgba(0, 0, 0, 0);
+    width: 32.5vw;
+    margin-left: 2vw;
+    padding-top: 1vw;
+    color: white;
+    padding-bottom: 1vw;
+    margin-top: 2vw;
+    margin-bottom: 4vw;
+}
+
+.submit-button:hover {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.dont-have-acc {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2vw;
+    text-align: center;
+}

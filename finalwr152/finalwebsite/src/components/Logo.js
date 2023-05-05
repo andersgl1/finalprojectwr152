@@ -4,6 +4,7 @@ const Logo = () => {
     return (
         <div
             className="logo"
+            id="logo"
         >
             <h4>
                 ChatGPT and Education<span></span>
